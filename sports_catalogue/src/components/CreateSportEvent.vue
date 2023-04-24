@@ -5,7 +5,7 @@
         Ici, on voit que on fait appel a un composant enfant,Event en lui transmettant notre tableau de events aisni que le type. Le tableau d'event et le type sont les données que on lui transmet et ce composant enfant va ensuite recevoir ces données en tant que "props"
     -->
         
-  <Event :events="events" type="sportifs"/>  
+  <Event :events="events" type="sportifs" />  
   <!--
     Ici, on voit avec un v-if (isAddEventAllowed). isAddEventAllowed est une properité computed qui vas nous retourner des informations sur nos etats, les valeurs computed sont ecrites comme des fonctions mais ont les traites comme des proprietes
   -->
